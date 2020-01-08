@@ -124,6 +124,63 @@ p,
 a {
   font-family: 'Open Sans', sans-serif;
 }
+footer {
+  border: 2px solid #FF6A22;
+  padding: 2% 0;
+  border-radius: 20px;
+  height: 20%;
+}
+footer h2 {
+  margin-bottom: 2%;
+  font-size: 1.3rem;
+}
+footer .contact {
+  width: 55%;
+  padding-left: 5%;
+  margin: 0 auto;
+}
+footer .contact a img {
+  border-radius: 20px;
+  height: 10vh;
+  margin-right: 5%;
+}
+.container .nav-section .nav-logo {
+  padding-top: 2%;
+}
+.container .nav-section .nav-logo .logo1 {
+  height: 15vh;
+}
+.container .nav-section div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container .nav-section div .nav-textarea {
+  border-radius: 20px;
+  padding: 2%;
+  background-color: #FF6A22;
+}
+.container .nav-section div textarea {
+  width: 100%;
+}
+.container .nav-section .nav-hamburger {
+  padding-top: 2%;
+}
+.container .nav-section .nav-hamburger .hamburger {
+  width: 3vw;
+}
+.container .nav-section nav {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container .nav-section nav a {
+  color: #FF6A22;
+  font-size: 1.3rem;
+}
 .micro-container {
   background-color: #FF6A22;
   border: 2px solid #FF6A22;
@@ -222,11 +279,14 @@ a {
   border: 1px solid #FF6A22;
   border-radius: 20px;
   margin: 2% auto;
-  width: 70%;
+  width: 45%;
   background-color: #FF6A22;
+  padding-bottom: 1%;
+  text-align: center;
+  font-size: 0.9rem;
 }
-.container .sign-up-section .next a {
-  font-size: 1.2rem;
+.container .sign-up-section .next img {
+  width: 2.2vh;
 }
 .container .sign-up-section p {
   border: 2px solid white;
@@ -236,41 +296,4 @@ a {
   margin: 2% auto;
   text-align: center;
   padding: 4%;
-}
-.container .nav-section .nav-logo {
-  padding-top: 2%;
-}
-.container .nav-section .nav-logo .logo1 {
-  height: 15vh;
-}
-.container .nav-section div {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.container .nav-section div .nav-textarea {
-  border-radius: 20px;
-  padding: 2%;
-  background-color: #FF6A22;
-}
-.container .nav-section div textarea {
-  width: 100%;
-}
-.container .nav-section .nav-hamburger {
-  padding-top: 2%;
-}
-.container .nav-section .nav-hamburger .hamburger {
-  width: 3vw;
-}
-.container .nav-section nav {
-  width: 100%;
-  margin: 0 auto;
-  margin-bottom: 2%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.container .nav-section nav a {
-  color: #FF6A22;
-  font-size: 1.3rem;
 }
