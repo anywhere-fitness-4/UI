@@ -3,6 +3,10 @@
     text-align: center;
 }
 
+.auto(@marg) {
+    margin: @marg auto;
+}
+
 .flex (@justify, @align){
     display: flex;
     justify-content: @justify;
@@ -16,4 +20,8 @@
 .border(@p, @c){
     border: @p solid @c;
     border-radius: 20px;
+}
+
+.test {
+    border: 1px solid black
 }

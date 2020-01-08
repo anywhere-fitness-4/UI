@@ -1,15 +1,44 @@
-.nav-section {
-    .nav-img {
-        margin: 0 auto;
-        height: 10vh;
-    }
+.container{
+    .nav-section {
+        .nav-logo {
+            padding-top: 2%;
+            .logo1 {
+                height: 15vh;
+            }
+        }
 
+        div{
+            .flex(space-evenly, center);
+
+            .nav-textarea {
+                .radius();
+                padding: 2%;
+                background-color: @color1;
+            }
+
+            textarea {
+                width: 100%;
+            }
+        }
+
+
+        .nav-hamburger{
+            padding-top: 2%;
+            .hamburger{
+                width: 3vw;
+            }
+        }
     
-    nav {
-        width: 80%;
-        margin: 0 auto;
-        margin-bottom: 2%;
-        display: flex;
-        justify-content: space-between;
+        nav {
+            width: 100%;
+            margin: 0 auto;
+            margin-bottom: 2%;
+            .flex(space-evenly, center);
+
+            a {
+                color: @color1;
+                font-size: 1.3rem;
+            }
+        }
     }
 }
