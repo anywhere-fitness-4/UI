@@ -1,3 +1,6 @@
+.center {
+  text-align: center;
+}
 html,
 body {
   height: 100%;
@@ -97,8 +100,20 @@ video {
   border: 1px solid grey;
 }
 .container {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Public Sans', sans-serif;
+}
+p,
+a {
+  font-family: 'Open Sans', sans-serif;
 }
 .nav-section .nav-img {
   margin: 0 auto;
@@ -111,10 +126,56 @@ video {
   display: flex;
   justify-content: space-between;
 }
-.logo-div {
+.container h1,
+.container h2,
+.container h3 {
+  text-align: center;
+}
+.container h1 {
+  color: #FF6A22;
+}
+.container .micro-container {
+  background-color: #FF6A22;
+  border: 2px solid #FF6A22;
+  border-radius: 20px;
+  margin-bottom: 2%;
+}
+.container .landing-middle {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: none;
+}
+.container .landing-middle div {
+  width: 30%;
+  background-color: #a53700;
+}
+.container .exercise1,
+.container .exercise2 {
+  border-radius: 20px;
+}
+.container .logo-div {
   margin: auto;
   width: 26%;
 }
-.landing-middle {
+.container .landing-middle {
   text-align: center;
+}
+.container .sign-up-section {
+  width: 95%;
+  margin: 0 auto;
+}
+.container .sign-up-section img {
+  height: 30vh;
+}
+.container .sign-up-section .sign-up-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: none;
+}
+.container .sign-up-section .sign-up {
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+  width: 30%;
+  padding: 3% 2%;
 }

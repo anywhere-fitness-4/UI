@@ -1,8 +1,58 @@
-.logo-div {
-    margin: auto;
-    width: 26%;
-}
 
-.landing-middle {
-    text-align: center;
+.container{
+    h1, h2, h3{
+        .center();
+    }
+
+    h1 {
+        color: @color1;
+    }
+
+    .micro-container{
+        background-color: @color1;
+        border:2px solid @color1;
+        border-radius: 20px;
+        margin-bottom: 2%;
+    }
+
+    .landing-middle{
+        .flex(space-evenly, none);
+        div {
+            width: 30%;
+            background-color: @color3;
+        }
+    }
+
+    .exercise1, .exercise2 {
+        border-radius: 20px;
+    }
+
+    .logo-div {
+        margin: auto;
+        width: 26%;
+    }
+    
+    .landing-middle {
+        .center();
+    }
+
+    .sign-up-section{
+        width: 95%;
+        margin: 0 auto;
+        img{
+            height: 30vh;
+        }
+
+        .sign-up-div {
+            .flex(space-evenly, none)
+        }
+        .sign-up {
+            .center();
+            margin: 0 auto;
+            background-color: @color2;
+            width: 30%;
+            padding: 3% 2%;
+        }
+    }
+    
 }
