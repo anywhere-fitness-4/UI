@@ -104,9 +104,6 @@ video {
   text-decoration: none;
   color: black;
 }
-h1 {
-  font-size: 1.7rem;
-}
 .container {
   width: 60%;
   max-width: 1000px;
@@ -119,6 +116,9 @@ h4,
 h5,
 h6 {
   font-family: 'Public Sans', sans-serif;
+}
+h1 {
+  font-size: 1.7rem;
 }
 p,
 a {
@@ -296,4 +296,71 @@ footer .contact a img {
   margin: 2% auto;
   text-align: center;
   padding: 4%;
+}
+.micro-container img {
+  border-radius: 20px;
+}
+.micro-container h2 {
+  margin: 1% auto;
+  color: white;
+}
+.micro-container h3 {
+  font-size: 1.2rem;
+  color: #a53700;
+}
+.micro-container h3 img {
+  width: 1.3vw;
+}
+.micro-container .class-section {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding: 2% 1%;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.micro-container .class-section img {
+  width: 2vw;
+}
+.micro-container .class-section .class {
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid black;
+  width: 20%;
+}
+.micro-container .class-section .class .class-image-div {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 2%;
+}
+.micro-container .class-section .class .class-image-div img {
+  width: 10vw;
+}
+.micro-container .class-section .class h4 {
+  text-align: center;
+  font-size: 1rem;
+}
+.micro-container .class-section .class h5 {
+  text-align: center;
+  font-size: 0.8rem;
+}
+.micro-container .class-section .class .stars-div {
+  margin: 0 auto;
+  width: 80%;
+}
+.micro-container .class-section .class .stars-div img {
+  width: 9vw;
+}
+.micro-container .home-class-section3 {
+  margin-top: 2%;
+}
+.micro-container .home-class-section3 h3 {
+  color: white;
+  font-size: 1.6rem;
+  margin-bottom: 2%;
+}
+.micro-container .exercise-div {
+  margin-top: 2%;
 }
