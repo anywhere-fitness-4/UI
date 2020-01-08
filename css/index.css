@@ -1,6 +1,9 @@
 .center {
   text-align: center;
 }
+.radius {
+  border-radius: 20px;
+}
 html,
 body {
   height: 100%;
@@ -97,7 +100,9 @@ video {
   font-size: 1.6rem;
   text-decoration: none;
   color: black;
-  border: 1px solid grey;
+}
+h1 {
+  font-size: 1.7rem;
 }
 .container {
   width: 60%;
@@ -146,8 +151,23 @@ a {
   align-items: none;
 }
 .container .landing-middle div {
+  border: 2px solid white;
+  border-radius: 20px;
   width: 30%;
   background-color: #a53700;
+  padding: 2%;
+}
+.container .landing-middle div h3 {
+  color: white;
+  margin-bottom: 2%;
+}
+.container .landing-middle div p {
+  text-align: center;
+  color: #dfdfdf;
+  font-size: 1.2rem;
+}
+.container .landing-h2-div {
+  margin: 2% auto;
 }
 .container .exercise1,
 .container .exercise2 {
@@ -165,6 +185,7 @@ a {
   margin: 0 auto;
 }
 .container .sign-up-section img {
+  border-radius: 20px;
   height: 30vh;
 }
 .container .sign-up-section .sign-up-div {
@@ -174,8 +195,22 @@ a {
 }
 .container .sign-up-section .sign-up {
   text-align: center;
+  border-radius: 20px;
   margin: 0 auto;
   background-color: white;
   width: 30%;
   padding: 3% 2%;
+}
+.container .sign-up-section .sign-up h4 {
+  font-size: 1.3rem;
+  color: #FF6A22;
+}
+.container .sign-up-section p {
+  border: 2px solid white;
+  border-radius: 20px;
+  background-color: #a53700;
+  color: white;
+  margin: 2% auto;
+  text-align: center;
+  padding: 4%;
 }

@@ -18,9 +18,24 @@
     .landing-middle{
         .flex(space-evenly, none);
         div {
+            .border(2px, @color2);
             width: 30%;
             background-color: @color3;
+            padding: 2%;
+            h3 {
+                color: @color2;
+                margin-bottom: 2%;
+            }
+            p{  
+                text-align: center;
+                color: @color4;
+                font-size: 1.2rem;
+            }
         }
+    }
+
+    .landing-h2-div {
+        margin: 2% auto;
     }
 
     .exercise1, .exercise2 {
@@ -40,6 +55,7 @@
         width: 95%;
         margin: 0 auto;
         img{
+            .radius();
             height: 30vh;
         }
 
@@ -48,10 +64,24 @@
         }
         .sign-up {
             .center();
+            .radius();
             margin: 0 auto;
             background-color: @color2;
             width: 30%;
             padding: 3% 2%;
+
+            h4{
+                font-size: 1.3rem;
+                color: @color1;
+            }
+        }
+        p {
+            .border(2px, @color2);
+            background-color: @color3;
+            color: @color2;
+            margin: 2% auto;
+            text-align: center;
+            padding: 4%;
         }
     }
     
