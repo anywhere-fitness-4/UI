@@ -160,7 +160,7 @@ footer .contact a img {
   max-height: 80px;
   margin-right: 5%;
 }
-.container2 .nav-section .nav-div {
+.nav-section .nav-div {
   max-width: 1000px;
   margin: 0 auto;
   position: fixed;
@@ -170,59 +170,59 @@ footer .contact a img {
   opacity: 0.9;
 }
 @media (max-width: 500px) {
-  .container2 .nav-section .nav-div {
+  .nav-section .nav-div {
     width: 90%;
   }
 }
-.container2 .nav-section .nav-logo {
+.nav-section .nav-logo {
   padding-top: 1%;
 }
-.container2 .nav-section .nav-logo .logo1 {
+.nav-section .nav-logo .logo1 {
   height: 15vh;
   max-height: 100px;
 }
 @media (max-width: 500px) {
-  .container2 .nav-section .nav-logo .logo1 {
+  .nav-section .nav-logo .logo1 {
     height: 10vh;
   }
 }
-.container2 .nav-section div {
+.nav-section div {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 @media (max-width: 500px) {
-  .container2 .nav-section div {
+  .nav-section div {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 }
-.container2 .nav-section div .nav-textarea {
+.nav-section div .nav-textarea {
   border-radius: 20px;
   padding: 2%;
   background-color: #FF6A22;
 }
 @media (max-width: 500px) {
-  .container2 .nav-section div .nav-textarea {
+  .nav-section div .nav-textarea {
     width: 40%;
   }
 }
-.container2 .nav-section div textarea {
+.nav-section div textarea {
   width: 100%;
 }
-.container2 .nav-section .nav-hamburger {
+.nav-section .nav-hamburger {
   padding-top: 2%;
 }
-.container2 .nav-section .nav-hamburger .hamburger {
+.nav-section .nav-hamburger .hamburger {
   width: 3vw;
 }
 @media (max-width: 500px) {
-  .container2 .nav-section .nav-hamburger .hamburger {
+  .nav-section .nav-hamburger .hamburger {
     width: 7vw;
   }
 }
-.container2 .nav-section nav {
+.nav-section nav {
   width: 100%;
   margin: 0 auto;
   margin-bottom: 2%;
@@ -230,12 +230,12 @@ footer .contact a img {
   justify-content: space-evenly;
   align-items: center;
 }
-.container2 .nav-section nav a {
+.nav-section nav a {
   color: #FF6A22;
   font-size: 1.3rem;
 }
 @media (max-width: 500px) {
-  .container2 .nav-section nav a {
+  .nav-section nav a {
     font-size: 0.8rem;
   }
 }
@@ -244,6 +244,10 @@ footer .contact a img {
   border: 2px solid #FF6A22;
   border-radius: 20px;
   margin-bottom: 2%;
+}
+.container .micro-container {
+  border: 2px solid #a53700;
+  border-radius: 20px;
 }
 .container h1 {
   margin-bottom: 1%;

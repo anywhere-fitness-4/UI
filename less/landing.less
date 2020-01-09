@@ -1,5 +1,9 @@
 .container {
 
+    .micro-container {
+        .border(2px, @color3);
+    }
+
     h1 {
         margin-bottom: 1%;
         color: @color1;
@@ -48,7 +52,7 @@
             width: 20%;
 
             @media @phone {
-                font-size: 0.9rem;    
+                font-size: 0.9rem;
             }
         }
 
@@ -79,7 +83,7 @@
 
         .index-classes {
             @media @phone {
-                display:none;
+                display: none;
             }
         }
     }
@@ -91,8 +95,9 @@
         img {
             .radius();
             width: 15vw;
+
             @media @phone {
-                display: none;   
+                display: none;
             }
         }
 
@@ -107,7 +112,7 @@
             background-color: @color2;
             width: 30%;
             padding: 2%;
-            
+
             @media @phone {
                 width: 60%;
                 margin-bottom: 2%;
