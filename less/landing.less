@@ -34,6 +34,7 @@
         .auto(0);
         .flex(space-evenly, center);
         width: 100%;
+        margin-top: 2%;
 
         a {
             font-size: 1rem;
@@ -46,11 +47,24 @@
 
         div {
             width: 30%;
-            margin: 0 5%;
 
             img {
                 .auto(0);
                 width: 100vw;
+            }
+        }
+
+        .login-div {
+            width: 15%;
+            max-height: 50px;
+            
+            p {
+                font-size: 1rem;
+
+                @media @phone {
+                    font-size: 0.9rem;
+                    line-height: 1;
+                }
             }
         }
     }
@@ -66,6 +80,18 @@
             @media @phone {
                 width: 46%;
             }
+
+            h3 {
+                @media @phone {
+                    font-size: 1rem;
+                }
+            }
+    
+            p {
+                @media @phone {
+                    font-size: 0.9rem;
+                }
+            }
         }
 
         .index-classes {
@@ -73,6 +99,7 @@
                 display: none;
             }
         }
+
     }
 
     .sign-up-section {
