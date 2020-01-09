@@ -1,0 +1,81 @@
+.container2 {
+    .nav-section {
+
+        .nav-div {
+            position: fixed;
+            top: 0;
+            background-color: @color2;
+            width: 60%;
+            opacity: .9;
+
+            @media @phone {
+                .auto(0);
+                width: 90%;
+            }
+        }
+
+        .nav-logo {
+            padding-top: 1%;
+
+            .logo1 {
+                height: 15vh;
+
+                @media @phone {
+                    height: 10vh;
+                }
+            }
+        }
+
+        div {
+            .flex(space-evenly, center);
+
+            @media @phone {
+                .flex(space-between, center);
+            }
+
+            .nav-textarea {
+                .radius();
+                padding: 2%;
+                background-color: @color1;
+
+                @media @phone {
+                    width: 40%;
+                }
+            }
+
+            textarea {
+                width: 100%;
+
+            }
+        }
+
+
+        .nav-hamburger {
+            padding-top: 2%;
+
+            .hamburger {
+                width: 3vw;
+
+                @media @phone {
+                    width: 7vw;
+                }
+            }
+        }
+
+        nav {
+            width: 100%;
+            .auto(0);
+            margin-bottom: 2%;
+            .flex(space-evenly, center);
+
+            a {
+                color: @color1;
+                font-size: 1.3rem;
+
+                @media @phone {
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+}
