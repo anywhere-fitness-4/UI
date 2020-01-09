@@ -157,9 +157,12 @@ footer .contact {
 footer .contact a img {
   border-radius: 20px;
   height: 10vh;
+  max-height: 80px;
   margin-right: 5%;
 }
 .container2 .nav-section .nav-div {
+  max-width: 1000px;
+  margin: 0 auto;
   position: fixed;
   top: 0;
   background-color: white;
@@ -168,7 +171,6 @@ footer .contact a img {
 }
 @media (max-width: 500px) {
   .container2 .nav-section .nav-div {
-    margin: 0 auto;
     width: 90%;
   }
 }
@@ -177,6 +179,7 @@ footer .contact a img {
 }
 .container2 .nav-section .nav-logo .logo1 {
   height: 15vh;
+  max-height: 100px;
 }
 @media (max-width: 500px) {
   .container2 .nav-section .nav-logo .logo1 {
