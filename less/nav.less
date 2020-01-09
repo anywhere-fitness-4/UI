@@ -1,17 +1,18 @@
 .nav-section {
+    .auto(0);
+    max-width: 1000px;
+    background-color: @color2;
+    position: fixed;
+    opacity: .9;
+    top: 0;
+    width: 60%;
+
+    @media @phone {
+        width: 90%;
+    }
 
     .nav-div {
-        max-width: 1000px;
-        .auto(0);
-        position: fixed;
-        top: 0;
-        background-color: @color2;
-        width: 60%;
-        opacity: .9;
-
-        @media @phone {
-            width: 90%;
-        }
+        width: 100%;
     }
 
     .nav-logo {
@@ -19,7 +20,7 @@
 
         .logo1 {
             height: 15vh;
-            max-height: 100px;
+            max-height: 80px;
 
             @media @phone {
                 height: 10vh;
@@ -64,10 +65,10 @@
     }
 
     nav {
-        width: 100%;
         .auto(0);
-        margin-bottom: 2%;
         .flex(space-evenly, center);
+        width: 100%;
+        margin-bottom: 2%;
 
         a {
             color: @color1;

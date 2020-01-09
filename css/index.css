@@ -163,26 +163,29 @@ footer .contact a img {
   max-height: 80px;
   margin-right: 5%;
 }
-.nav-section .nav-div {
-  max-width: 1000px;
+.nav-section {
   margin: 0 auto;
-  position: fixed;
-  top: 0;
+  max-width: 1000px;
   background-color: white;
-  width: 60%;
+  position: fixed;
   opacity: 0.9;
+  top: 0;
+  width: 60%;
 }
 @media (max-width: 500px) {
-  .nav-section .nav-div {
+  .nav-section {
     width: 90%;
   }
+}
+.nav-section .nav-div {
+  width: 100%;
 }
 .nav-section .nav-logo {
   padding-top: 1%;
 }
 .nav-section .nav-logo .logo1 {
   height: 15vh;
-  max-height: 100px;
+  max-height: 80px;
 }
 @media (max-width: 500px) {
   .nav-section .nav-logo .logo1 {
@@ -226,12 +229,12 @@ footer .contact a img {
   }
 }
 .nav-section nav {
-  width: 100%;
   margin: 0 auto;
-  margin-bottom: 2%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  width: 100%;
+  margin-bottom: 2%;
 }
 .nav-section nav a {
   color: #FF6A22;
@@ -281,10 +284,10 @@ footer .contact a img {
   margin: 2% auto;
 }
 .container .logo-div {
+  margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 0 auto;
   width: 100%;
 }
 .container .logo-div a {
@@ -362,10 +365,10 @@ footer .contact a img {
   color: #FF6A22;
 }
 .container .sign-up-section .next {
-  border: 1px solid #FF6A22;
-  border-radius: 20px;
   margin: 2% auto;
   text-align: center;
+  border: 1px solid #FF6A22;
+  border-radius: 20px;
   width: 45%;
   background-color: #FF6A22;
   padding-bottom: 1%;
@@ -375,12 +378,12 @@ footer .contact a img {
   width: 2.2vh;
 }
 .container .sign-up-section p {
+  margin: 0 auto;
+  text-align: center;
   border: 2px solid white;
   border-radius: 20px;
   background-color: #a53700;
   color: white;
-  margin: 2% auto;
-  text-align: center;
   padding: 4%;
 }
 @media (max-width: 500px) {
@@ -389,11 +392,11 @@ footer .contact a img {
   }
 }
 .container2 {
-  margin-top: 7%;
+  margin-top: 12%;
 }
 @media (max-width: 500px) {
   .container2 {
-    margin-top: 25%;
+    margin-top: 30%;
   }
 }
 .container2 .micro-container {

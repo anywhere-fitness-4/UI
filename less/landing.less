@@ -36,8 +36,8 @@
     }
 
     .logo-div {
-        .flex(space-evenly, center);
         .auto(0);
+        .flex(space-evenly, center);
         width: 100%;
 
         a {
@@ -122,9 +122,9 @@
         }
 
         .next {
-            .border(1px, @color1);
             .auto(2%);
             .center();
+            .border(1px, @color1);
             width: 45%;
             background-color: @color1;
             padding-bottom: 1%;
@@ -136,11 +136,11 @@
         }
 
         p {
+            .auto(0);
+            .center();
             .border(2px, @color2);
             background-color: @color3;
             color: @color2;
-            margin: 2% auto;
-            text-align: center;
             padding: 4%;
 
             @media @phone {
