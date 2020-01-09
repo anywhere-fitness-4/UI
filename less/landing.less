@@ -7,87 +7,33 @@
 
     .landing-middle {
         .flex(space-evenly, none);
-
-        div {
-            .border(2px, @color2);
-            width: 30%;
-            background-color: @color3;
-            padding: 2%;
-
-            h3 {
-                color: @color2;
-                margin-bottom: 2%;
-            }
-
-            p {
-                color: @color4;
-                font-size: 1.2rem;
-            }
-        }
-    }
-
-    .landing-h2-div {
-        .auto(2%);
-    }
-
-    .logo-div {
-        .auto(0);
-        .flex(space-evenly, center);
-        width: 100%;
-        margin-top: 2%;
-
-        a {
-            font-size: 1rem;
-            width: 20%;
-
-            @media @phone {
-                font-size: 0.9rem;
-            }
-        }
-
-        div {
-            width: 30%;
-
-            img {
-                .auto(0);
-                width: 100vw;
-            }
-        }
-
-        .login-div {
-            width: 15%;
-            max-height: 50px;
-            
-            p {
-                font-size: 1rem;
-
-                @media @phone {
-                    font-size: 0.9rem;
-                    line-height: 1;
-                }
-            }
-        }
-    }
-
-    .landing-middle {
         .auto(0);
         width: 95%;
 
 
         div {
+            .border(2px, @color2);
             width: 32%;
+            background-color: @color3;
+            padding: 2%;
 
-            @media @phone {
+            @media @phone, @tablet {
                 width: 46%;
             }
 
             h3 {
+                color: @color2;
+                margin-bottom: 2%;
+
                 @media @phone {
                     font-size: 1rem;
                 }
             }
     
             p {
+                color: @color4;
+                font-size: 1.2rem;
+
                 @media @phone {
                     font-size: 0.9rem;
                 }
@@ -95,11 +41,15 @@
         }
 
         .index-classes {
-            @media @phone {
+            @media @phone,  @tablet {
                 display: none;
             }
         }
 
+    }
+
+    .landing-h2-div {
+        .auto(2%);
     }
 
     .sign-up-section {
@@ -111,7 +61,7 @@
             width: 18vw;
             max-width: 300px;
 
-            @media @phone {
+            @media @phone, @tablet{
                 display: none;
             }
         }
@@ -128,7 +78,7 @@
             width: 30%;
             padding: 2%;
 
-            @media @phone {
+            @media @phone, @tablet {
                 width: 60%;
 
             }
