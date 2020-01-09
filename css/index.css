@@ -242,11 +242,6 @@ footer .contact a img {
   border-radius: 20px;
   margin-bottom: 2%;
 }
-@media (max-width: 500px) {
-  .container {
-    width: 90%;
-  }
-}
 .container h1 {
   margin-bottom: 1%;
   color: #FF6A22;
@@ -327,7 +322,7 @@ footer .contact a img {
 }
 .container .sign-up-section img {
   border-radius: 20px;
-  width: 18vw;
+  width: 15vw;
 }
 @media (max-width: 500px) {
   .container .sign-up-section img {
@@ -504,8 +499,10 @@ footer .contact a img {
     display: none;
   }
 }
-.container2 .micro-container .class-section .class {
-  width: 40%;
+@media (max-width: 500px) {
+  .container2 .micro-container .class-section .class {
+    width: 40%;
+  }
 }
 .container2 .micro-container .home-class-section3 {
   margin-top: 2%;
