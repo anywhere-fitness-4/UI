@@ -106,9 +106,9 @@ video {
 }
 .container,
 .container2 {
+  margin: 0 auto;
   width: 60%;
   max-width: 1000px;
-  margin: 0 auto;
 }
 @media (max-width: 500px) {
   .container,
@@ -139,10 +139,13 @@ a {
 h1 {
   font-size: 1.7rem;
 }
+img {
+  border-radius: 20px;
+}
 footer {
   border: 2px solid #FF6A22;
-  padding: 2% 0;
   border-radius: 20px;
+  padding: 2% 0;
   height: 20%;
 }
 footer h2 {
@@ -150,9 +153,9 @@ footer h2 {
   font-size: 1.3rem;
 }
 footer .contact {
+  margin: 0 auto;
   width: 55%;
   padding-left: 5%;
-  margin: 0 auto;
 }
 footer .contact a img {
   border-radius: 20px;
@@ -277,15 +280,12 @@ footer .contact a img {
 .container .landing-h2-div {
   margin: 2% auto;
 }
-.container .exercise-div img {
-  border-radius: 20px;
-}
 .container .logo-div {
-  margin: auto;
-  width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin: 0 auto;
+  width: 100%;
 }
 .container .logo-div a {
   text-align: center;
@@ -324,11 +324,10 @@ footer .contact a img {
   }
 }
 .container .sign-up-section {
-  width: 95%;
   margin: 0 auto;
+  width: 95%;
 }
 .container .sign-up-section img {
-  border-radius: 20px;
   width: 15vw;
 }
 @media (max-width: 500px) {
@@ -366,10 +365,10 @@ footer .contact a img {
   border: 1px solid #FF6A22;
   border-radius: 20px;
   margin: 2% auto;
+  text-align: center;
   width: 45%;
   background-color: #FF6A22;
   padding-bottom: 1%;
-  text-align: center;
   font-size: 0.9rem;
 }
 .container .sign-up-section .next img {
@@ -401,9 +400,6 @@ footer .contact a img {
   border: 2px solid #a53700;
   border-radius: 20px;
 }
-.container2 .micro-container img {
-  border-radius: 20px;
-}
 .container2 .micro-container h2 {
   margin: 1% auto;
   color: white;
@@ -431,14 +427,14 @@ footer .contact a img {
   }
 }
 .container2 .micro-container .class-section {
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
-  padding: 2% 1%;
-  width: 90%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding: 2% 1%;
+  width: 90%;
 }
 @media (max-width: 500px) {
   .container2 .micro-container .class-section {
@@ -457,7 +453,6 @@ footer .contact a img {
 .container2 .micro-container .class-section .class2 {
   border-radius: 20px;
   background-color: white;
-  border: 1px solid black;
   width: 20%;
 }
 .container2 .micro-container .class-section .class .class-image-div,

@@ -35,16 +35,10 @@
         .auto(2%);
     }
 
-    .exercise-div {
-        img {
-            .radius();
-        }
-    }
-
     .logo-div {
-        margin: auto;
-        width: 100%;
         .flex(space-evenly, center);
+        .auto(0);
+        width: 100%;
 
         a {
             .center();
@@ -89,11 +83,10 @@
     }
 
     .sign-up-section {
+        .auto(0);
         width: 95%;
-        margin: 0 auto;
 
         img {
-            .radius();
             width: 15vw;
 
             @media @phone {
@@ -108,7 +101,7 @@
         .sign-up {
             .center();
             .radius();
-            margin: 0 auto;
+            .auto(0);
             background-color: @color2;
             width: 30%;
             padding: 2%;
@@ -131,10 +124,10 @@
         .next {
             .border(1px, @color1);
             .auto(2%);
+            .center();
             width: 45%;
             background-color: @color1;
             padding-bottom: 1%;
-            .center();
             font-size: 0.9rem;
 
             img {
