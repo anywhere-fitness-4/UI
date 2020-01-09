@@ -148,78 +148,33 @@ img {
   display: flex;
   justify-content: space-evenly;
   align-items: none;
-}
-.container .landing-middle div {
-  border: 2px solid white;
-  border-radius: 20px;
-  width: 30%;
-  background-color: #a53700;
-  padding: 2%;
-}
-.container .landing-middle div h3 {
-  color: white;
-  margin-bottom: 2%;
-}
-.container .landing-middle div p {
-  color: #dfdfdf;
-  font-size: 1.2rem;
-}
-.container .landing-h2-div {
-  margin: 2% auto;
-}
-.container .logo-div {
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 100%;
-  margin-top: 2%;
-}
-.container .logo-div a {
-  font-size: 1rem;
-  width: 20%;
-}
-@media (max-width: 500px) {
-  .container .logo-div a {
-    font-size: 0.9rem;
-  }
-}
-.container .logo-div div {
-  width: 30%;
-}
-.container .logo-div div img {
-  margin: 0 auto;
-  width: 100vw;
-}
-.container .logo-div .login-div {
-  width: 15%;
-  max-height: 50px;
-}
-.container .logo-div .login-div p {
-  font-size: 1rem;
-}
-@media (max-width: 500px) {
-  .container .logo-div .login-div p {
-    font-size: 0.9rem;
-    line-height: 1;
-  }
-}
-.container .landing-middle {
   margin: 0 auto;
   width: 95%;
 }
 .container .landing-middle div {
+  border: 2px solid white;
+  border-radius: 20px;
   width: 32%;
+  background-color: #a53700;
+  padding: 2%;
 }
 @media (max-width: 500px) {
   .container .landing-middle div {
     width: 46%;
   }
 }
+.container .landing-middle div h3 {
+  color: white;
+  margin-bottom: 2%;
+}
 @media (max-width: 500px) {
   .container .landing-middle div h3 {
     font-size: 1rem;
   }
+}
+.container .landing-middle div p {
+  color: #dfdfdf;
+  font-size: 1.2rem;
 }
 @media (max-width: 500px) {
   .container .landing-middle div p {
@@ -230,6 +185,9 @@ img {
   .container .landing-middle .index-classes {
     display: none;
   }
+}
+.container .landing-h2-div {
+  margin: 2% auto;
 }
 .container .sign-up-section {
   margin: 0 auto;
@@ -525,5 +483,45 @@ footer .contact a img {
 @media (max-width: 500px) {
   .nav-section nav a {
     font-size: 0.8rem;
+  }
+}
+.logo-div {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin-top: 2%;
+}
+.logo-div a {
+  font-size: 1rem;
+  width: 15%;
+}
+@media (max-width: 500px) {
+  .logo-div a {
+    font-size: 0.9rem;
+  }
+}
+.logo-div div {
+  width: 30%;
+}
+.logo-div div img {
+  margin: 0 auto;
+  width: 100vw;
+}
+.logo-div .login-div {
+  width: 15%;
+  max-height: 50px;
+}
+.logo-div .login-div a {
+  width: 100%;
+}
+.logo-div .login-div p {
+  font-size: 1rem;
+}
+@media (max-width: 500px) {
+  .logo-div .login-div p {
+    font-size: 0.9rem;
+    line-height: 1;
   }
 }
