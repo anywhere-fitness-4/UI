@@ -1,6 +1,14 @@
 .container2 {
     margin-top: 12%;
 
+    @media @small-desktop{
+        margin-top: 15%;
+    }
+
+    @media @extra-small-desktop {
+        margin-top: 20%;
+    }
+
     @media @phone {
         margin-top: 30%;
     }
@@ -39,23 +47,33 @@
         padding: 2% 1%;
         width: 90%;
 
-        @media @phone {
+        @media @phone, @tablet {
             width: 100%;
         }
 
         img {
             width: 2vw;
 
-            @media @phone {
+            @media @phone{
                 width: 7vw;
+            }
+
+            @media @tablet {
+                width: 4vw;
             }
         }
 
         .class,
-        .class2 {
+        .class2,
+        .class3 {
             .radius();
+            .test();
             background-color: @color2;
             width: 20%;
+
+            @media @tablet {
+                .auto(2%);
+            }
 
             .class-image-div {
                 .auto(0);
@@ -65,7 +83,7 @@
                 img {
                     width: 10vw;
 
-                    @media @phone {
+                    @media @phone, @tablet {
                         width: 30vw;
                     }
                 }
@@ -86,14 +104,14 @@
                 img {
                     width: 9vw;
 
-                    @media @phone {
+                    @media @phone, @tablet{
                         width: 25vw;
                     }
                 }
             }
         }
 
-        .class2 {
+        .class2, .class3 {
             @media @phone {
                 display: none;
             }
@@ -102,6 +120,12 @@
         .class {
             @media @phone {
                 width: 40%;
+            }
+        }
+
+        .class2 {
+            @media @tablet {
+                display: none;
             }
         }
     }
