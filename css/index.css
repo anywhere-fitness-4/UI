@@ -173,6 +173,7 @@ img {
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
+  margin-top: 2%;
 }
 .container .logo-div a {
   font-size: 1rem;
@@ -185,11 +186,23 @@ img {
 }
 .container .logo-div div {
   width: 30%;
-  margin: 0 5%;
 }
 .container .logo-div div img {
   margin: 0 auto;
   width: 100vw;
+}
+.container .logo-div .login-div {
+  width: 15%;
+  max-height: 50px;
+}
+.container .logo-div .login-div p {
+  font-size: 1rem;
+}
+@media (max-width: 500px) {
+  .container .logo-div .login-div p {
+    font-size: 0.9rem;
+    line-height: 1;
+  }
 }
 .container .landing-middle {
   margin: 0 auto;
@@ -201,6 +214,16 @@ img {
 @media (max-width: 500px) {
   .container .landing-middle div {
     width: 46%;
+  }
+}
+@media (max-width: 500px) {
+  .container .landing-middle div h3 {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 500px) {
+  .container .landing-middle div p {
+    font-size: 0.9rem;
   }
 }
 @media (max-width: 500px) {
