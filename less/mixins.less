@@ -1,10 +1,6 @@
 
-.center {
-    text-align: center;
-}
-
-.auto(@marg) {
-    margin: @marg auto;
+.auto(@marg-tb) {
+    margin: @marg-tb auto;
 }
 
 .flex (@justify, @align){
@@ -13,12 +9,12 @@
     align-items: @align;
 }
 
-.radius {
+.border(@pixels, @color){
+    border: @pixels solid @color;
     border-radius: 20px;
 }
 
-.border(@p, @c){
-    border: @p solid @c;
+.radius {
     border-radius: 20px;
 }
 

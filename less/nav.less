@@ -1,82 +1,81 @@
-.container2 {
-    .nav-section {
+.nav-section {
+    .auto(0);
+    width: 60%;
+    max-width: 1000px;
+    background-color: @color2;
+    position: fixed;
+    opacity: .9;
+    top: 0;
 
-        .nav-div {
-            max-width: 1000px;
-            .auto(0);
-            position: fixed;
-            top: 0;
-            background-color: @color2;
-            width: 60%;
-            opacity: .9;
+    @media @phone {
+        width: 90%;
+    }
 
-            @media @phone {
-                width: 90%;
-            }
-        }
+    .nav-div {
+        width: 100%;
+    }
 
-        .nav-logo {
-            padding-top: 1%;
+    .nav-logo {
+        padding-top: 1%;
 
-            .logo1 {
-                height: 15vh;
-                max-height: 100px;
-
-                @media @phone {
-                    height: 10vh;
-                }
-            }
-        }
-
-        div {
-            .flex(space-evenly, center);
+        .logo1 {
+            height: 15vh;
+            max-height: 80px;
 
             @media @phone {
-                .flex(space-between, center);
+                height: 10vh;
             }
+        }
+    }
 
-            .nav-textarea {
-                .radius();
-                padding: 2%;
-                background-color: @color1;
+    div {
+        .flex(space-evenly, center);
 
-                @media @phone {
-                    width: 40%;
-                }
-            }
+        @media @phone {
+            .flex(space-between, center);
+        }
 
-            textarea {
-                width: 100%;
+        .nav-textarea {
+            .radius();
+            padding: 2%;
+            background-color: @color1;
 
+            @media @phone {
+                width: 40%;
             }
         }
 
-
-        .nav-hamburger {
-            padding-top: 2%;
-
-            .hamburger {
-                width: 3vw;
-
-                @media @phone {
-                    width: 7vw;
-                }
-            }
-        }
-
-        nav {
+        textarea {
             width: 100%;
-            .auto(0);
-            margin-bottom: 2%;
-            .flex(space-evenly, center);
 
-            a {
-                color: @color1;
-                font-size: 1.3rem;
+        }
+    }
 
-                @media @phone {
-                    font-size: 0.8rem;
-                }
+
+    .nav-hamburger {
+        padding-top: 2%;
+
+        .hamburger {
+            width: 3vw;
+
+            @media @phone {
+                width: 7vw;
+            }
+        }
+    }
+
+    nav {
+        .auto(0);
+        .flex(space-evenly, center);
+        width: 100%;
+        margin-bottom: 2%;
+
+        a {
+            color: @color1;
+            font-size: 1.3rem;
+
+            @media @phone {
+                font-size: 0.8rem;
             }
         }
     }
