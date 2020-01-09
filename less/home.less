@@ -5,129 +5,123 @@
         margin-top: 30%;
     }
 
-    .micro-container {
-        .border(2px, @color3);
+    h2 {
+        .auto(1%);
+        color: @color2;
 
-        h2 {
-            .auto(1%);
-            color: @color2;
+        @media @phone {
+            font-size: 1.3rem;
+        }
+    }
+
+    h3 {
+        font-size: 1.2rem;
+        color: @color3;
+
+        @media @phone {
+            font-size: 1rem;
+        }
+
+        img {
+            width: 1.3vw;
 
             @media @phone {
-                font-size: 1.3rem;
+                width: 3vw;
+            }
+        }
+    }
+
+    .class-section {
+        .auto(0);
+        .flex(space-between, center);
+        border-top: 2px solid @color2;
+        border-bottom: 2px solid @color2;
+        padding: 2% 1%;
+        width: 90%;
+
+        @media @phone {
+            width: 100%;
+        }
+
+        img {
+            width: 2vw;
+
+            @media @phone {
+                width: 7vw;
             }
         }
 
-        h3 {
-            font-size: 1.2rem;
-            color: @color3;
+        .class,
+        .class2 {
+            .radius();
+            background-color: @color2;
+            width: 20%;
 
-            @media @phone {
+            .class-image-div {
+                .auto(0);
+                width: 90%;
+                margin-top: 2%;
+
+                img {
+                    width: 10vw;
+
+                    @media @phone {
+                        width: 30vw;
+                    }
+                }
+            }
+
+            h4 {
                 font-size: 1rem;
             }
 
-            img {
-                width: 1.3vw;
+            h5 {
+                font-size: 0.8rem;
+            }
 
-                @media @phone {
-                    width: 3vw;
+            .stars-div {
+                .auto(0);
+                width: 80%;
+
+                img {
+                    width: 9vw;
+
+                    @media @phone {
+                        width: 25vw;
+                    }
                 }
             }
         }
 
-        .class-section {
-            .auto(0);
-            .flex(space-between, center);
-            border-top: 2px solid @color2;
-            border-bottom: 2px solid @color2;
-            padding: 2% 1%;
-            width: 90%;
+        .class2 {
+            @media @phone {
+                display: none;
+            }
+        }
+
+        .class {
+            @media @phone {
+                width: 40%;
+            }
+        }
+    }
+
+    .home-class-section3 {
+        margin-top: 2%;
+
+        h3 {
+            color: @color2;
+            font-size: 1.6rem;
+            margin-bottom: 2%;
 
             @media @phone {
-                width: 100%;
-            }
-
-            img {
-                width: 2vw;
-
-                @media @phone {
-                    width: 7vw;
-                }
-            }
-
-            .class,
-            .class2 {
-                .radius();
-                background-color: @color2;
-                width: 20%;
-
-                .class-image-div {
-                    .auto(0);
-                    width: 90%;
-                    margin-top: 2%;
-
-                    img {
-                        width: 10vw;
-
-                        @media @phone {
-                            width: 30vw;
-                        }
-                    }
-                }
-
-                h4 {
-                    .center();
-                    font-size: 1rem;
-                }
-
-                h5 {
-                    .center();
-                    font-size: 0.8rem;
-                }
-
-                .stars-div {
-                    .auto(0);
-                    width: 80%;
-
-                    img {
-                        width: 9vw;
-
-                        @media @phone {
-                            width: 25vw;
-                        }
-                    }
-                }
-            }
-
-            .class2 {
-                @media @phone {
-                    display: none;
-                }
-            }
-
-            .class {
-                @media @phone {
-                    width: 40%;
-                }
+                font-size: 1.2rem;
             }
         }
+    }
 
-        .home-class-section3 {
-            margin-top: 2%;
-
-            h3 {
-                color: @color2;
-                font-size: 1.6rem;
-                margin-bottom: 2%;
-
-                @media @phone {
-                    font-size: 1.2rem;
-                }
-            }
-        }
-
-        .exercise3 {
-            margin-top: 2%;
-            bottom: 0;
-        }
+    .exercise3 {
+        margin-top: 2%;
+        bottom: 0;
     }
 }
