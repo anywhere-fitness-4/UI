@@ -2,6 +2,8 @@
     .nav-section {
 
         .nav-div {
+            max-width: 1000px;
+            .auto(0);
             position: fixed;
             top: 0;
             background-color: @color2;
@@ -9,7 +11,6 @@
             opacity: .9;
 
             @media @phone {
-                .auto(0);
                 width: 90%;
             }
         }
@@ -19,6 +20,7 @@
 
             .logo1 {
                 height: 15vh;
+                max-height: 100px;
 
                 @media @phone {
                     height: 10vh;
