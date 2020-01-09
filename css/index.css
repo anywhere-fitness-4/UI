@@ -104,10 +104,19 @@ video {
   text-decoration: none;
   color: black;
 }
-.container {
+.container,
+.container2 {
   width: 60%;
   max-width: 1000px;
   margin: 0 auto;
+}
+.container h1,
+.container2 h1,
+.container h2,
+.container2 h2,
+.container h3,
+.container2 h3 {
+  text-align: center;
 }
 h1,
 h2,
@@ -144,32 +153,39 @@ footer .contact a img {
   height: 10vh;
   margin-right: 5%;
 }
-.container .nav-section .nav-logo {
-  padding-top: 2%;
+.container2 .nav-section .nav-div {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 60%;
+  opacity: 0.9;
 }
-.container .nav-section .nav-logo .logo1 {
+.container2 .nav-section .nav-logo {
+  padding-top: 1%;
+}
+.container2 .nav-section .nav-logo .logo1 {
   height: 15vh;
 }
-.container .nav-section div {
+.container2 .nav-section div {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-.container .nav-section div .nav-textarea {
+.container2 .nav-section div .nav-textarea {
   border-radius: 20px;
   padding: 2%;
   background-color: #FF6A22;
 }
-.container .nav-section div textarea {
+.container2 .nav-section div textarea {
   width: 100%;
 }
-.container .nav-section .nav-hamburger {
+.container2 .nav-section .nav-hamburger {
   padding-top: 2%;
 }
-.container .nav-section .nav-hamburger .hamburger {
+.container2 .nav-section .nav-hamburger .hamburger {
   width: 3vw;
 }
-.container .nav-section nav {
+.container2 .nav-section nav {
   width: 100%;
   margin: 0 auto;
   margin-bottom: 2%;
@@ -177,7 +193,7 @@ footer .contact a img {
   justify-content: space-evenly;
   align-items: center;
 }
-.container .nav-section nav a {
+.container2 .nav-section nav a {
   color: #FF6A22;
   font-size: 1.3rem;
 }
@@ -186,11 +202,6 @@ footer .contact a img {
   border: 2px solid #FF6A22;
   border-radius: 20px;
   margin-bottom: 2%;
-}
-.container h1,
-.container h2,
-.container h3 {
-  text-align: center;
 }
 .container h1 {
   margin-bottom: 1%;
@@ -220,8 +231,7 @@ footer .contact a img {
 .container .landing-h2-div {
   margin: 2% auto;
 }
-.container .exercise-div .exercise1,
-.container .exercise-div .exercise2 {
+.container .exercise-div img {
   border-radius: 20px;
 }
 .container .logo-div {
@@ -297,6 +307,13 @@ footer .contact a img {
   text-align: center;
   padding: 4%;
 }
+.container2 {
+  margin-top: 10%;
+}
+.micro-container {
+  border: 2px solid #a53700;
+  border-radius: 20px;
+}
 .micro-container img {
   border-radius: 20px;
 }
@@ -361,6 +378,7 @@ footer .contact a img {
   font-size: 1.6rem;
   margin-bottom: 2%;
 }
-.micro-container .exercise-div {
+.micro-container .exercise3 {
   margin-top: 2%;
+  bottom: 0;
 }
