@@ -1,23 +1,28 @@
-
-.container{
+.container {
+    @media @phone {
+        width: 90%;
+    }
 
     h1 {
         margin-bottom: 1%;
         color: @color1;
     }
 
-    .landing-middle{
+    .landing-middle {
         .flex(space-evenly, none);
+
         div {
             .border(2px, @color2);
             width: 30%;
             background-color: @color3;
             padding: 2%;
+
             h3 {
                 color: @color2;
                 margin-bottom: 2%;
             }
-            p{  
+
+            p {
                 .center();
                 color: @color4;
                 font-size: 1.2rem;
@@ -26,7 +31,7 @@
     }
 
     .landing-h2-div {
-       .auto(2%)
+        .auto(2%);
     }
 
     .exercise-div {
@@ -39,36 +44,65 @@
         margin: auto;
         width: 100%;
         .flex(space-evenly, center);
-        a{
+
+        a {
             .center();
             font-size: 1rem;
             width: 20%;
+
+            @media @phone {
+                font-size: 0.9rem;    
+            }
         }
+
         div {
             width: 30%;
             margin: 0 5%;
-            img{
+
+            img {
                 .auto(0);
                 width: 100vw;
             }
         }
     }
-    
+
     .landing-middle {
         .center();
+        .auto(0);
+        width: 95%;
+
+
+        div {
+            width: 32%;
+
+            @media @phone {
+                width: 46%;
+            }
+        }
+
+        .index-classes {
+            @media @phone {
+                display:none;
+            }
+        }
     }
 
-    .sign-up-section{
+    .sign-up-section {
         width: 95%;
         margin: 0 auto;
-        img{
+
+        img {
             .radius();
             width: 18vw;
+            @media @phone {
+                display: none;   
+            }
         }
 
         .sign-up-div {
-            .flex(space-evenly, none)
+            .flex(space-evenly, none);
         }
+
         .sign-up {
             .center();
             .radius();
@@ -77,11 +111,16 @@
             width: 30%;
             padding: 2%;
             
-            textarea{
+            @media @phone {
+                width: 60%;
+                margin-bottom: 2%;
+            }
+
+            textarea {
                 width: 90%;
             }
 
-            h4{
+            h4 {
                 font-size: 1.3rem;
                 color: @color1;
             }
@@ -94,10 +133,11 @@
             background-color: @color1;
             padding-bottom: 1%;
             .center();
-                font-size: 0.9rem;
-                img {
-                    width: 2.2vh;
-                }
+            font-size: 0.9rem;
+
+            img {
+                width: 2.2vh;
+            }
         }
 
         p {
@@ -107,7 +147,11 @@
             margin: 2% auto;
             text-align: center;
             padding: 4%;
+
+            @media @phone {
+                display: none;
+            }
         }
+
     }
-    
 }

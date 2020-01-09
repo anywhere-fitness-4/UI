@@ -1,82 +1,137 @@
 .container2 {
     margin-top: 10%;
-}
 
-
-.micro-container {
-    .border(2px, @color3);
-    img {
-        .radius();
+    @media @phone {
+        margin-top: 20%;
     }
 
-    h2 {
-        .auto(1%);
-        color: @color2;
-    }
-
-    h3 {
-        font-size: 1.2rem;
-        color: @color3;
-
-        img{
-            width: 1.3vw;
-        }
-    }
-
-    .class-section {
-        border-top: 2px solid @color2;
-        border-bottom: 2px solid @color2;
-        padding: 2% 1%;
-        width: 90%;
-        .auto(0);
-        .flex(space-between, center);
+    .micro-container {
+        .border(2px, @color3);
+    
         img {
-            width: 2vw;
-        }
-        .class {
             .radius();
-            background-color: @color2;
-            .test();
-            width: 20%;
-            .class-image-div {
-                .auto(0);
-                width: 90%;
-                margin-top: 2%;
-                img {
-                    width: 10vw;
-                }
+        }
+    
+        h2 {
+            .auto(1%);
+            color: @color2;
+
+            @media @phone {
+                font-size: 1.3rem;
             }
-            h4 {
-                .center();
+        }
+    
+        h3 {
+            font-size: 1.2rem;
+            color: @color3;
+
+            @media @phone {
                 font-size: 1rem;
             }
+    
+            img {
+                width: 1.3vw;
 
-            h5 {
-                .center();
-                font-size: 0.8rem;
-            }
-            .stars-div {
-                .auto(0);
-                width: 80%;
-                img {
-                    width: 9vw;
+                @media @phone {
+                    width: 3vw;
                 }
             }
         }
-    }
+    
+        .class-section {
+            border-top: 2px solid @color2;
+            border-bottom: 2px solid @color2;
+            padding: 2% 1%;
+            width: 90%;
+            .auto(0);
+            .flex(space-between, center);
 
-    .home-class-section3 {
-        margin-top: 2%;
+            @media @phone {
+                width: 100%;
+            }
+    
+            img {
+                width: 2vw;
 
-        h3 {
-            color: @color2;
-            font-size: 1.6rem;
-            margin-bottom: 2%;
+                @media @phone {
+                    width: 7vw;
+                }
+            }
+    
+            .class, .class2 {
+                .radius();
+                background-color: @color2;
+                .test();
+                width: 20%;
+    
+                .class-image-div {
+                    .auto(0);
+                    width: 90%;
+                    margin-top: 2%;
+    
+                    img {
+                        width: 10vw;
+
+                        @media @phone {
+                            width: 30vw;
+                        }
+                    }
+                }
+    
+                h4 {
+                    .center();
+                    font-size: 1rem;
+                }
+    
+                h5 {
+                    .center();
+                    font-size: 0.8rem;
+                }
+    
+                .stars-div {
+                    .auto(0);
+                    width: 80%;
+    
+                    img {
+                        width: 9vw;
+
+                        @media @phone {
+                            width: 25vw;
+                        }
+                    }
+                }
+            }
+
+            .class2 {
+                @media @phone {
+                    display: none;
+                }
+            }
+
+            .class {
+                width: 40%;
+            }
+        }
+    
+        .home-class-section3 {
+            margin-top: 2%;
+    
+            h3 {
+                color: @color2;
+                font-size: 1.6rem;
+                margin-bottom: 2%;
+
+                @media @phone {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    
+        .exercise3 {
+            margin-top: 2%;
+            bottom: 0;
         }
     }
-
-    .exercise3{
-        margin-top: 2%;
-        bottom: 0;
-    }
 }
+
+

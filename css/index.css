@@ -110,6 +110,12 @@ video {
   max-width: 1000px;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  .container,
+  .container2 {
+    width: 90%;
+  }
+}
 .container h1,
 .container2 h1,
 .container h2,
@@ -126,12 +132,12 @@ h5,
 h6 {
   font-family: 'Public Sans', sans-serif;
 }
-h1 {
-  font-size: 1.7rem;
-}
 p,
 a {
   font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-size: 1.7rem;
 }
 footer {
   border: 2px solid #FF6A22;
@@ -160,21 +166,44 @@ footer .contact a img {
   width: 60%;
   opacity: 0.9;
 }
+@media (max-width: 500px) {
+  .container2 .nav-section .nav-div {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
 .container2 .nav-section .nav-logo {
   padding-top: 1%;
 }
 .container2 .nav-section .nav-logo .logo1 {
   height: 15vh;
 }
+@media (max-width: 500px) {
+  .container2 .nav-section .nav-logo .logo1 {
+    height: 10vh;
+  }
+}
 .container2 .nav-section div {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .container2 .nav-section div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
 .container2 .nav-section div .nav-textarea {
   border-radius: 20px;
   padding: 2%;
   background-color: #FF6A22;
+}
+@media (max-width: 500px) {
+  .container2 .nav-section div .nav-textarea {
+    width: 40%;
+  }
 }
 .container2 .nav-section div textarea {
   width: 100%;
@@ -184,6 +213,11 @@ footer .contact a img {
 }
 .container2 .nav-section .nav-hamburger .hamburger {
   width: 3vw;
+}
+@media (max-width: 500px) {
+  .container2 .nav-section .nav-hamburger .hamburger {
+    width: 7vw;
+  }
 }
 .container2 .nav-section nav {
   width: 100%;
@@ -197,11 +231,21 @@ footer .contact a img {
   color: #FF6A22;
   font-size: 1.3rem;
 }
+@media (max-width: 500px) {
+  .container2 .nav-section nav a {
+    font-size: 0.8rem;
+  }
+}
 .micro-container {
   background-color: #FF6A22;
   border: 2px solid #FF6A22;
   border-radius: 20px;
   margin-bottom: 2%;
+}
+@media (max-width: 500px) {
+  .container {
+    width: 90%;
+  }
 }
 .container h1 {
   margin-bottom: 1%;
@@ -246,6 +290,11 @@ footer .contact a img {
   font-size: 1rem;
   width: 20%;
 }
+@media (max-width: 500px) {
+  .container .logo-div a {
+    font-size: 0.9rem;
+  }
+}
 .container .logo-div div {
   width: 30%;
   margin: 0 5%;
@@ -256,6 +305,21 @@ footer .contact a img {
 }
 .container .landing-middle {
   text-align: center;
+  margin: 0 auto;
+  width: 95%;
+}
+.container .landing-middle div {
+  width: 32%;
+}
+@media (max-width: 500px) {
+  .container .landing-middle div {
+    width: 46%;
+  }
+}
+@media (max-width: 500px) {
+  .container .landing-middle .index-classes {
+    display: none;
+  }
 }
 .container .sign-up-section {
   width: 95%;
@@ -264,6 +328,11 @@ footer .contact a img {
 .container .sign-up-section img {
   border-radius: 20px;
   width: 18vw;
+}
+@media (max-width: 500px) {
+  .container .sign-up-section img {
+    display: none;
+  }
 }
 .container .sign-up-section .sign-up-div {
   display: flex;
@@ -277,6 +346,12 @@ footer .contact a img {
   background-color: white;
   width: 30%;
   padding: 2%;
+}
+@media (max-width: 500px) {
+  .container .sign-up-section .sign-up {
+    width: 60%;
+    margin-bottom: 2%;
+  }
 }
 .container .sign-up-section .sign-up textarea {
   width: 90%;
@@ -307,28 +382,53 @@ footer .contact a img {
   text-align: center;
   padding: 4%;
 }
+@media (max-width: 500px) {
+  .container .sign-up-section p {
+    display: none;
+  }
+}
 .container2 {
   margin-top: 10%;
 }
-.micro-container {
+@media (max-width: 500px) {
+  .container2 {
+    margin-top: 20%;
+  }
+}
+.container2 .micro-container {
   border: 2px solid #a53700;
   border-radius: 20px;
 }
-.micro-container img {
+.container2 .micro-container img {
   border-radius: 20px;
 }
-.micro-container h2 {
+.container2 .micro-container h2 {
   margin: 1% auto;
   color: white;
 }
-.micro-container h3 {
+@media (max-width: 500px) {
+  .container2 .micro-container h2 {
+    font-size: 1.3rem;
+  }
+}
+.container2 .micro-container h3 {
   font-size: 1.2rem;
   color: #a53700;
 }
-.micro-container h3 img {
+@media (max-width: 500px) {
+  .container2 .micro-container h3 {
+    font-size: 1rem;
+  }
+}
+.container2 .micro-container h3 img {
   width: 1.3vw;
 }
-.micro-container .class-section {
+@media (max-width: 500px) {
+  .container2 .micro-container h3 img {
+    width: 3vw;
+  }
+}
+.container2 .micro-container .class-section {
   border-top: 2px solid white;
   border-bottom: 2px solid white;
   padding: 2% 1%;
@@ -338,47 +438,89 @@ footer .contact a img {
   justify-content: space-between;
   align-items: center;
 }
-.micro-container .class-section img {
+@media (max-width: 500px) {
+  .container2 .micro-container .class-section {
+    width: 100%;
+  }
+}
+.container2 .micro-container .class-section img {
   width: 2vw;
 }
-.micro-container .class-section .class {
+@media (max-width: 500px) {
+  .container2 .micro-container .class-section img {
+    width: 7vw;
+  }
+}
+.container2 .micro-container .class-section .class,
+.container2 .micro-container .class-section .class2 {
   border-radius: 20px;
   background-color: white;
   border: 1px solid black;
   width: 20%;
 }
-.micro-container .class-section .class .class-image-div {
+.container2 .micro-container .class-section .class .class-image-div,
+.container2 .micro-container .class-section .class2 .class-image-div {
   margin: 0 auto;
   width: 90%;
   margin-top: 2%;
 }
-.micro-container .class-section .class .class-image-div img {
+.container2 .micro-container .class-section .class .class-image-div img,
+.container2 .micro-container .class-section .class2 .class-image-div img {
   width: 10vw;
 }
-.micro-container .class-section .class h4 {
+@media (max-width: 500px) {
+  .container2 .micro-container .class-section .class .class-image-div img,
+  .container2 .micro-container .class-section .class2 .class-image-div img {
+    width: 30vw;
+  }
+}
+.container2 .micro-container .class-section .class h4,
+.container2 .micro-container .class-section .class2 h4 {
   text-align: center;
   font-size: 1rem;
 }
-.micro-container .class-section .class h5 {
+.container2 .micro-container .class-section .class h5,
+.container2 .micro-container .class-section .class2 h5 {
   text-align: center;
   font-size: 0.8rem;
 }
-.micro-container .class-section .class .stars-div {
+.container2 .micro-container .class-section .class .stars-div,
+.container2 .micro-container .class-section .class2 .stars-div {
   margin: 0 auto;
   width: 80%;
 }
-.micro-container .class-section .class .stars-div img {
+.container2 .micro-container .class-section .class .stars-div img,
+.container2 .micro-container .class-section .class2 .stars-div img {
   width: 9vw;
 }
-.micro-container .home-class-section3 {
+@media (max-width: 500px) {
+  .container2 .micro-container .class-section .class .stars-div img,
+  .container2 .micro-container .class-section .class2 .stars-div img {
+    width: 25vw;
+  }
+}
+@media (max-width: 500px) {
+  .container2 .micro-container .class-section .class2 {
+    display: none;
+  }
+}
+.container2 .micro-container .class-section .class {
+  width: 40%;
+}
+.container2 .micro-container .home-class-section3 {
   margin-top: 2%;
 }
-.micro-container .home-class-section3 h3 {
+.container2 .micro-container .home-class-section3 h3 {
   color: white;
   font-size: 1.6rem;
   margin-bottom: 2%;
 }
-.micro-container .exercise3 {
+@media (max-width: 500px) {
+  .container2 .micro-container .home-class-section3 h3 {
+    font-size: 1.2rem;
+  }
+}
+.container2 .micro-container .exercise3 {
   margin-top: 2%;
   bottom: 0;
 }
