@@ -1,8 +1,22 @@
 .container {
 
+    .logo2 {
+        .radius();
+        .auto(2%);
+        background-color: @color2;
+        width: 40%;
+    }
+
     h1 {
         margin-bottom: 1%;
         color: @color1;
+    }
+
+    .exercise-background-div {
+        .radius();
+        padding: 5%;
+        background-image: url(/img/Exercise1.jfif);
+        background-repeat: no-repeat;
     }
 
     .landing-middle {
@@ -41,7 +55,7 @@
         }
 
         .index-classes {
-            @media @phone,  @tablet {
+            @media @phone {
                 display: none;
             }
         }
@@ -72,23 +86,25 @@
         }
 
         .sign-up {
+            .test();
             .radius();
-            .auto(0);
+            .auto(auto);
             background-color: @color2;
             width: 30%;
             padding: 2%;
+            height: 100%;
 
             @media @phone, @tablet {
                 width: 60%;
-
             }
 
             textarea {
                 width: 90%;
+                .auto(10%)
             }
 
             h4 {
-                font-size: 1.3rem;
+                font-size: 1.2rem;
                 color: @color1;
             }
         }
