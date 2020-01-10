@@ -1,19 +1,23 @@
 .micro-container {
     .about-h1 {
+        .auto(2%);
+        width: 90%;
         color: @color2;
     }
 
     .about-team-section {
         .flex(space-between, none);
-        .test();
         .auto(2%);
         flex-wrap: wrap;
         width: 90%;
 
         .team-member {
-            .test();
             width: 30%;
             margin-bottom: 2%;
+
+            @media @phone {
+                width: 45%;
+            }
     
             h2 {
                font-size: 1.3rem;
@@ -27,6 +31,10 @@
             div {
                 .auto(0);
                 width: 50%;
+
+                @media @phone {
+                    width: 80%;
+                }
             }
         }
     }
