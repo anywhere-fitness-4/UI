@@ -151,6 +151,11 @@ img {
     width: 90%;
   }
 }
+@media (max-width: 500px) {
+  .nav-section .nav-news {
+    display: none;
+  }
+}
 .nav-section .nav-div {
   width: 100%;
 }
