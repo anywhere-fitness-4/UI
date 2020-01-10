@@ -454,14 +454,14 @@ footer .contact a img {
 .container .class-section img {
   width: 2vw;
 }
-@media (max-width: 500px) {
-  .container .class-section img {
-    width: 7vw;
-  }
-}
 @media (max-width: 800px) {
   .container .class-section img {
     width: 4vw;
+  }
+}
+@media (max-width: 500px) {
+  .container .class-section img {
+    width: 7vw;
   }
 }
 .container .class-section .class,
