@@ -3,7 +3,31 @@
         color: @color2;
     }
 
-    .team-member {
-        width: 30%;
+    .about-team-section {
+        .flex(space-between, none);
+        .test();
+        .auto(2%);
+        flex-wrap: wrap;
+        width: 90%;
+
+        .team-member {
+            .test();
+            width: 30%;
+            margin-bottom: 2%;
+    
+            h2 {
+               font-size: 1.3rem;
+            }
+    
+            p {
+                font-size: 1rem;
+            }
+    
+    
+            div {
+                .auto(0);
+                width: 50%;
+            }
+        }
     }
 }
