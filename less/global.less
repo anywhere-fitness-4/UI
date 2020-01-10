@@ -3,15 +3,30 @@
     width: 60%;
     max-width: 1000px;
 
-    @media @phone, @tablet {
+    @media @phone,
+    @tablet {
         width: 90%;
     }
 
-    .micro-container{
+    .micro-container {
         .border(2px, @color3);
         background-color: @color1;
         border-radius: 20px;
         margin-bottom: 2%;
+    }
+
+    margin-top: 10%;
+
+    @media @small-desktop {
+        margin-top: 15%;
+    }
+
+    @media @extra-small-desktop {
+        margin-top: 20%;
+    }
+
+    @media @phone {
+        margin-top: 30%;
     }
 
 }

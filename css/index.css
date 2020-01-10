@@ -105,6 +105,7 @@ video {
   margin: 0 auto;
   width: 60%;
   max-width: 1000px;
+  margin-top: 10%;
 }
 @media (max-width: 500px), (max-width: 800px) {
   .container {
@@ -116,6 +117,21 @@ video {
   background-color: #FF6A22;
   border-radius: 20px;
   margin-bottom: 2%;
+}
+@media (max-width: 1300px) {
+  .container {
+    margin-top: 15%;
+  }
+}
+@media (max-width: 1000px) {
+  .container {
+    margin-top: 20%;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    margin-top: 30%;
+  }
 }
 h1,
 h2,
@@ -240,7 +256,7 @@ footer .contact {
   width: 55%;
   padding-left: 5%;
 }
-@media (max-width: 1250px) {
+@media (max-width: 1300px) {
   footer .contact {
     width: 70%;
   }
@@ -368,19 +384,20 @@ footer .contact a img {
   font-size: 1.2rem;
   color: #FF6A22;
 }
-.container .sign-up-section .next {
+.container .sign-up-section .sign-up .next {
   margin: 2% auto;
   border: 1px solid #FF6A22;
   border-radius: 20px;
   width: 45%;
   background-color: #FF6A22;
-  padding-bottom: 1%;
+  padding: 1%;
   font-size: 0.9rem;
 }
-.container .sign-up-section .next img {
+.container .sign-up-section .sign-up .next img {
+  padding: 2%;
   width: 2.2vh;
 }
-.container .sign-up-section p {
+.container .sign-up-section .bottom-p {
   margin: 0 auto;
   border: 2px solid white;
   border-radius: 20px;
@@ -389,26 +406,8 @@ footer .contact a img {
   padding: 4%;
 }
 @media (max-width: 500px) {
-  .container .sign-up-section p {
+  .container .sign-up-section .bottom-p {
     display: none;
-  }
-}
-.container {
-  margin-top: 12%;
-}
-@media (max-width: 1250px) {
-  .container {
-    margin-top: 15%;
-  }
-}
-@media (max-width: 1000px) {
-  .container {
-    margin-top: 20%;
-  }
-}
-@media (max-width: 500px) {
-  .container {
-    margin-top: 30%;
   }
 }
 .container h2 {

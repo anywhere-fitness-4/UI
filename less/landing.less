@@ -31,7 +31,8 @@
             background-color: @color3;
             padding: 2%;
 
-            @media @phone, @tablet {
+            @media @phone,
+            @tablet {
                 width: 46%;
             }
 
@@ -43,7 +44,7 @@
                     font-size: 1rem;
                 }
             }
-    
+
             p {
                 color: @color4;
                 font-size: 1.2rem;
@@ -75,7 +76,8 @@
             width: 18vw;
             max-width: 300px;
 
-            @media @phone, @tablet{
+            @media @phone,
+            @tablet {
                 display: none;
             }
         }
@@ -94,7 +96,8 @@
             padding: 2%;
             height: 100%;
 
-            @media @phone, @tablet {
+            @media @phone,
+            @tablet {
                 width: 60%;
             }
 
@@ -107,22 +110,24 @@
                 font-size: 1.2rem;
                 color: @color1;
             }
-        }
 
-        .next {
-            .auto(2%);
-            .border(1px, @color1);
-            width: 45%;
-            background-color: @color1;
-            padding-bottom: 1%;
-            font-size: 0.9rem;
-
-            img {
-                width: 2.2vh;
+            .next {
+                .auto(2%);
+                .border(1px, @color1);
+                width: 45%;
+                background-color: @color1;
+                padding: 1%;
+                font-size: 0.9rem;
+    
+                img {
+                    padding: 2%;
+                    width: 2.2vh;
+                }
             }
         }
 
-        p {
+
+        .bottom-p {
             .auto(0);
             .border(2px, @color2);
             background-color: @color3;
